@@ -16,8 +16,8 @@ BRANDS = []
 
 def brand=(brand)
   @brand = brand
-  if false BRAND.include?(brand)
-  BRAND << brand
+  if false BRANDS.include?(brand)
+  BRANDS << brand
 end
 end
 
